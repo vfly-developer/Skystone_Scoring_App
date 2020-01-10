@@ -1,4 +1,32 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ScoringItem" representedClassName=".ScoringItem" syncable="YES">
+        <attribute name="alliance" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="autoScore" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="capstones" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="endGameFoundation" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="endGameParking" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="endGameScore" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="event" optional="YES" attributeType="String"/>
+        <attribute name="firstCapstone" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="foundation" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mechanism" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="parking" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="placedStones" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="round" optional="YES" attributeType="String"/>
+        <attribute name="scorer" optional="YES" attributeType="String"/>
+        <attribute name="secondCapstone" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skyscraper" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="skyStones" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="startingZone" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="stones" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="teamName" optional="YES" attributeType="String"/>
+        <attribute name="teamNum" optional="YES" attributeType="String"/>
+        <attribute name="teleOpScore" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="teleOpStones" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="teleOpStonesPlaced" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="ScoringItem" positionX="-63" positionY="-18" width="128" height="403"/>
+    </elements>
 </model>
